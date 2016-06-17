@@ -9,5 +9,11 @@ var input = file && file !== '-'
         : process.stdin
     ;
 input.pipe(concat(function (buf) {
-    console.log(getMarkdownTitle(buf.toString('utf8')).text);
+    var string = buf.toString('utf8');
+    try {
+        console.log(getMarkdownTitle(string).text);
+    } catch (error) {
+        console.error(new Error("Not found title :\n" + string));
+        process.exit(1);
+    }
 }));
