@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/azu/get-md-title-cli/issues"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "get title from markdown file",
   "main": "bin/cmd.js",
   "files": [
