@@ -1,0 +1,36 @@
+{
+  "name": "get-md-title-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/get-md-title-cli.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/get-md-title-cli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/get-md-title-cli/issues"
+  },
+  "version": "1.0.0",
+  "description": "get title from markdown file",
+  "main": "bin/cmd.js",
+  "files": [
+    "bin",
+    "lib",
+    "src"
+  ],
+  "bin": {
+    "get-md-title": "bin/cmd.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {},
+  "keywords": [
+    "markdown"
+  ],
+  "dependencies": {
+    "concat-stream": "^1.5.1",
+    "get-md-title": "^1.0.4"
+  }
+}
